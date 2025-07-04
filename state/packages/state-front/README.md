@@ -32,17 +32,22 @@ npm install
 
 ### 2. 环境配置
 
-创建 `.env.local` 文件并配置以下环境变量：
+创建 `.env` 文件并配置以下环境变量：
 
 ```env
+
+PROJECT_ID=
+
+SEPOLIA_RPC_URL=
+
 # 质押合约地址
 NEXT_PUBLIC_STAKE_ADDRESS=0x...
 
 # MTK代币地址
-NEXT_PUBLIC_MTK_TOKEN_ADDRESS=0x...
+MTK_TOKEN_ADDRESS=0x...
 
-# 网络配置
-NEXT_PUBLIC_CHAIN_ID=1
+# erc20 token 合约地址
+MTK_STAKE_ADDRESS=0x...
 ```
 
 ### 3. 启动开发服务器
